@@ -1,0 +1,523 @@
+body {
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100vw;
+  height: 120em;
+  background-color: hsl(0, 0%, 95%);
+  background-image: url(./images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+}
+.container-1 {
+  margin: 3% 10%;
+}
+ul {
+  margin-top: 1%;
+}
+li {
+  color: white;
+  margin-left: 3%;
+  font-weight: 500;
+}
+li:first-child {
+  margin-left: auto;
+}
+.container-2 {
+  margin: 18%;
+}
+.box-1 {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5%;
+  text-align: center;
+}
+legend img {
+  margin-top: -6%;
+}
+h3,
+h4 {
+  font-weight: 700;
+}
+p {
+  color: hsl(0, 0%, 48%);
+}
+.bookmarkgroup {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: space-between;
+}
+.bookmarkgroup button:first-child,
+.section-foot button {
+  padding: 5px 40px;
+  border: none;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 28px;
+  color: white;
+  font-weight: 500;
+}
+.bookmarkgroup button:first-child:hover,
+.section-foot button:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.bookmark,
+.staticgroup {
+  display: flex;
+  flex-direction: row;
+}
+.bookmark svg {
+  position: relative;
+  z-index: 2;
+  margin-right: -40px;
+  cursor: pointer;
+}
+#circle {
+  fill: black;
+}
+#path {
+  fill: gray;
+}
+.bookmark:hover svg {
+  opacity: 0.5;
+}
+.bookmark button {
+  padding: 5px 30px 5px 55px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 28px;
+  color: hsl(0, 0%, 48%);
+  font-weight: 700;
+}
+.box-2 {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 5% 7% 3% 7%;
+}
+.staticgroup div:first-child {
+  padding: 0% 7%;
+  margin-left: -5%;
+  border-right: 2px solid hsl(0, 0%, 95%);
+}
+.staticgroup div:nth-child(2) {
+  padding: 0% 14% 0% 7%;
+  border-right: 2px solid hsl(0, 0%, 95%);
+}
+.staticgroup div:last-child {
+  padding: 0% 14% 0% 7%;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: hsl(0, 0%, 95%);
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 10px;
+}
+.slider::-webkit-slider-thumb {
+  display: none;
+}
+.probar {
+  width: 80%;
+  height: 10px;
+  background: hsl(176, 50%, 47%);
+  border-radius: 10px;
+  position: relative;
+  top: -16px;
+  left: 0;
+  z-index: 2;
+}
+.box-3 {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 5%;
+}
+.about p:nth-child(2),
+.about p:nth-child(3) {
+  margin-top: 5%;
+}
+.section {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 5%;
+}
+.section:nth-child(2) {
+  margin-top: 7%;
+}
+.section-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+h5 {
+  font-weight: 700;
+  color: hsl(176, 50%, 47%);
+}
+.section-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.section-foot h1 {
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+}
+.section-foot p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 17px;
+  margin-right: auto;
+}
+.section:nth-child(4),
+.section2:nth-child(7) {
+  opacity: 0.5;
+}
+.section:nth-child(4) button {
+  padding: 5px 40px;
+  border: none;
+  background-color: hsl(0, 0%, 48%);
+  border-radius: 28px;
+  color: white;
+  font-weight: 500;
+}
+.modal-complete {
+  position: absolute;
+  margin-top: -10%;
+  display: none;
+}
+.modal-default {
+  position: absolute;
+  margin-top: -10%;
+  display: none;
+}
+.curtain {
+  position: absolute;
+  z-index: 10;
+  opacity: 0.5;
+  background-color: hsl(0, 0%, 0%);
+  width: 100vw;
+  height: 130em;
+}
+.card-1 {
+  position: sticky;
+  background-color: white;
+  z-index: 20;
+  width: 50%;
+  padding: 5% 4%;
+  border-radius: 10px;
+  text-align: center;
+  left: 31.5%;
+  margin-top: 37%;
+}
+.card-1 h4 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card-1 button {
+  padding: 10px;
+  border: none;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 28px;
+  color: white;
+  font-weight: 500;
+  width: 25%;
+  margin: auto;
+  margin-top: 5%;
+}
+.card-1 button:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.card-2 {
+  position: sticky;
+  background-color: white;
+  z-index: 20;
+  width: 65.5%;
+  padding: 2% 4%;
+  border-radius: 10px;
+  left: 24.5%;
+  margin-top: 25.5%;
+}
+.card-2 #closemodal {
+  cursor: pointer;
+  width: 2%;
+  margin-left: auto;
+}
+.card-2 #closemodal svg {
+  opacity: 0.4;
+}
+.card-2 #closemodal svg:hover {
+  opacity: 1;
+}
+.section2 {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 3%;
+}
+.section2-head {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.section2-head div:first-child{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 48%;
+}
+.section2-head div:last-child{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; 
+  margin-left: auto;
+}
+.con {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.con input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: -17px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+.con input:checked ~ .checkmark {
+  background-color: white;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.con input:checked ~ .checkmark:after {
+  display: block;
+}
+.con .checkmark:after {
+  top: 5.5px;
+  left: 5.5px;
+  width: 12.5px;
+  height: 12.5px;
+  border-radius: 50%;
+  background: hsl(176, 50%, 47%);
+}
+.section2 h5 {
+  color: black;
+  font-weight: 700;
+  margin-left: 1%;
+  cursor: pointer;
+}
+.section2 h5:hover {
+  color: hsl(176, 50%, 47%);
+}
+.section2-head:hover .checkmark {
+  border: 1px solid hsl(176, 50%, 47%);
+}
+.section2 h6 {
+  color: hsl(176, 50%, 47%);
+  font-weight: 700;
+}
+.section2-head p:nth-child(5) {
+  margin-left: 2%;
+}
+.section2 p:nth-child(2) {
+  margin-left: 6%;
+}
+.card-footer {
+  background-color: white;
+  margin: 0 -3%;
+  display: none;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 3% 3% 0 3%;
+}
+.card-footer h6 {
+  color: hsl(0, 0%, 60%);
+  font-weight: 500;
+}
+.card-footer div{
+  margin-left: auto;
+}
+.card-footer input {  
+  margin-left: 35%;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  background-color: white;
+  border-radius: 28px;
+  font-weight: 500;
+  width: 30%;
+  text-align: center;
+}
+.card-footer button {
+  padding: 10px;
+  border: none;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 28px;
+  color: white;
+  font-weight: 500;
+  width: 30%;
+  margin-left: 3%;
+}
+.m{
+  display: none;
+}
+@media(max-width:550px){
+    body{
+        background-image: url(./images/image-hero-mobile.jpg);
+        background-size: 100%;   
+        width: 100%;          
+    }
+    .container-1 {
+        margin: 3% 5%;  
+      }
+      #close{
+        display: none;
+      }
+      .container-2{
+        margin: 53% 2%;
+      }
+      legend img{
+        margin-top: -10%;
+      }
+    .box-1 h3{
+      width: 80%;
+      margin: 15% 0% 5% 10%;
+    }
+    .bookmarkgroup{
+      justify-content: left;
+      margin-top: 8%;
+      margin-bottom: 10%;
+    }
+    #project{
+      margin-right: 5%;
+      width: 77%;  
+    }
+    #bookmark{
+      display: none;
+    }
+    .staticgroup{
+        flex-direction: column;
+      text-align: center;
+    }
+    .staticgroup div:first-child , .staticgroup div:nth-child(2) {
+      border-right: none;
+      border-bottom: 2px solid hsl(0, 0%, 95%);
+      margin-bottom: 5%;
+      width: 65%;
+      margin-left: 20%;
+    }
+    .section-head{
+      flex-direction: column;
+      margin-bottom: 10%;
+    }
+    .section-foot{
+      flex-direction: column;
+    }
+    .section-foot button{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      width: 75%;
+      height: 50px;
+    }
+    .curtain{
+      width: 105%;     
+    }
+    .card-2,.section2-head div:first-child{
+      width: 100%;
+    }   
+    .head-media{
+      display: flex;
+      flex-direction: column;
+    }  
+    .head-media h6{
+      margin-left: 12%;
+    }
+    .section2-head div:last-child{
+      display: none;
+    }
+    #navtab{ 
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      top: 120%;
+      border-radius: 10px;      
+      z-index: 10;
+    }
+    .navbar-brand , #open{
+      z-index: 10;
+    }
+    .nav-item{
+      color: black;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: auto;
+      text-align: left;
+      font-weight: 700;
+      width: 80%;
+      padding-bottom: 5%;
+      border-bottom: 2px solid hsl(0, 0%, 95%);
+    }
+    .nav-item:first-child{
+      margin-left: 10%;    
+      margin-top: 10%; 
+    }
+    .nav-item:last-child{
+      border: none;
+    }
+    #curtain {            
+      display: none;
+      position: absolute;
+      z-index: 10;
+      opacity: 0.5;
+      background-color: hsl(0, 0%, 0%);
+      margin-top: -5%;
+      width: 100vw;
+      height: 160rem;
+    }
+    .card-footer{
+      flex-direction: column;
+      text-align: center;
+    }
+    .card-footer h6{
+      margin:  5% auto;
+    }
+    .card-footer div{
+      display: flex;
+      flex-direction: row;
+      margin-left: 0;
+      margin-bottom: 5%;
+    }
+    .card-footer input , .card-footer button{
+      width: 100px;
+    }
+  .m{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+  }
+}
